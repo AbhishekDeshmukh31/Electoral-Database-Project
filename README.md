@@ -29,21 +29,21 @@ Technologies Used
 Hibernate Framework.
 
 
-#Features
-CRUD Operations:
+*Features
+CRUD Operations:<br>
 
-Create: Insert new candidate information into the database.
-Read: Retrieve candidate information based on various filters (name, age, party).
-Update: Update existing candidate data (e.g., change age, name, or party affiliation).
-Delete: Remove candidates from the database.
-MySQL Database Connection: Connects to a MySQL database, ensuring smooth interaction and persistent storage of candidate data.
+Create: Insert new candidate information into the database.<br>
+Read: Retrieve candidate information based on various filters (name, age, party).<br>
+Update: Update existing candidate data (e.g., change age, name, or party affiliation).<br>
+Delete: Remove candidates from the database.<br>
+MySQL Database Connection: Connects to a MySQL database, ensuring smooth interaction and persistent storage of candidate data.<br>
 
 
 
-#Future Enhancements
-Implement transaction management for handling multiple operations (insert/update/delete) in one transaction.
-Implement input validation and error handling to ensure better user interaction.
-Add a user interface (UI) for easier candidate management.
-Include unit tests to ensure CRUD operations work as expected.
+#Future Enhancements<br>
+Implement transaction management for handling multiple operations (insert/update/delete) in one transaction.<br>
+Implement input validation and error handling to ensure better user interaction.<br>
+Add a user interface (UI) for easier candidate management.<br>
+Include unit tests to ensure CRUD operations work as expected.<br>
 
 For any suggestions or feedback, reach out at: ad904108@gmail.com
