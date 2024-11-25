@@ -1,4 +1,5 @@
 ElectoralDatabase
+
 *ElectoralDatabase is a Java-based application designed to manage and store information about candidates appearing in elections. The application connects to a MySQL database and performs basic CRUD (Create, Read, Update, Delete) operations on candidate data using Hibernate Framework.*
 
 Project Overview
