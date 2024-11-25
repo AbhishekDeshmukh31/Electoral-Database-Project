@@ -24,8 +24,6 @@ Technologies Used
 - ![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white)
 - ![MySQL](https://img.shields.io/badge/MySQL-00758F?style=for-the-badge&logo=mysql&logoColor=white)
 
-  Maven: Dependency management and build automation tool.
-  
 Hibernate Framework.
 
 
