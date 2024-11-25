@@ -1,4 +1,4 @@
-#ElectoralDatabase
+ElectoralDatabase
 *ElectoralDatabase is a Java-based application designed to manage and store information about candidates appearing in elections. The application connects to a MySQL database and performs basic CRUD (Create, Read, Update, Delete) operations on candidate data using Hibernate Framework.*
 
 Project Overview
@@ -22,8 +22,10 @@ Technologies Used
 - ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
 - ![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white)
 - ![MySQL](https://img.shields.io/badge/MySQL-00758F?style=for-the-badge&logo=mysql&logoColor=white)
-Maven: Dependency management and build automation tool.
-Hibernate Framework
+
+  Maven: Dependency management and build automation tool.
+  
+Hibernate Framework.
 
 
 #Features
@@ -35,28 +37,7 @@ Update: Update existing candidate data (e.g., change age, name, or party affilia
 Delete: Remove candidates from the database.
 MySQL Database Connection: Connects to a MySQL database, ensuring smooth interaction and persistent storage of candidate data.
 
-Project Structure
-bash
-Copy code
-ElectoralDatabase/
-│
-├── src/
-│   ├── main/
-│   │   ├── java/
-│   │   │   ├── com/
-│   │   │   │   ├── electoral/
-│   │   │   │   │   ├── entity/
-│   │   │   │   │   │   ├── Candidate.java   # Entity class representing the candidate
-│   │   │   │   │   ├── dao/
-│   │   │   │   │   │   ├── CandidateDAO.java   # DAO class to perform CRUD operations
-│   │   │   │   ├── config/
-│   │   │   │   │   ├── DatabaseConnection.java # Database connection utility
-│   │   │   ├── resources/
-│   │   │   │   ├── db_config.properties   # Database connection settings
-│   ├── pom.xml   # Maven dependency file
-│
-├── README.md   # Project documentation
-└── LICENSE      # Project license
+
 
 #Future Enhancements
 Implement transaction management for handling multiple operations (insert/update/delete) in one transaction.
